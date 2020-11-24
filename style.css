@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+body{
+    font-family: "Dosis", sans-serif;
+    background :url(https://i1.faceprep.in/ProGrad/minion-background.png) ;
+}
+section{
+    width: 500px;
+    background-color: white;
+    margin: auto
+    padding: 10px 0;}
+
+label{
+    font-weight: bold;
+}
+input, textarea{
+    margin: 10px 0px;
+}
+div{
+    text-align: center;
+}
+p,
+input[type="text"]
+input[type="number"]
+textarea form  {
+
+    width: 350px;
+    padding: 8px;
+}
+p{
+    margin: auto;
+}
+
+input[type=submit]{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+}
+
+input[type="checkbox"]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
